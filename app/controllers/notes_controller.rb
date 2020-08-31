@@ -20,7 +20,7 @@ class NotesController < ApplicationController
 
   private
   	def set_book
-  	  @book = Book.find(params[:book:id])
+  	  @book = Book.find(params[:book_id])
   	end
 
   	def note_params
